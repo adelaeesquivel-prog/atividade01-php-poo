@@ -49,7 +49,7 @@ $planta->setNome('Girassool')
                 <strong>Recomendação para sete dias</strong>
 
                 <p>
-                    <!-- Exiba a quantidade calculada para sete dia -->
+                    <?= $planta->getcalcularAguaSemanal() ?> ml
                 </p>
             </div>
 

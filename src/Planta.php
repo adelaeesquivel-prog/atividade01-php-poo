@@ -29,7 +29,7 @@ class Planta
   {
     return $this->aguaPorDia;
   }
-   public function calcularAguaSemanal(): int
+   public function getcalcularAguaSemanal(): int
   {
     return $this->aguaPorDia * 7 ;
   }
